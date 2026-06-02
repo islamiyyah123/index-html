@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing Cards</title>
+<head>
+
+  <style>
+    #playing-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      display: flex;
+      justify-content: space-between;
+      width: 120px;
+      height: 180px;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .left {
+      align-self: flex-start;
+    }
+
+    .middle {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+
+    .right {
+      align-self: flex-end;
+    }
+  </style>
+</head>
+<body>
+
+  <main id="playing-cards">
+
+    <div class="card">
+      <div class="left">♠</div>
+      <div class="middle">
+        <div>♠</div>
+        <div>♠</div>
+      </div>
+      <div class="right">♠</div>
+    </div>
+
+    <div class="card">
+      <div class="left">♥</div>
+      <div class="middle">
+        <div>♥</div>
+        <div>♥</div>
+      </div>
+      <div class="right">♥</div>
+    </div>
+
+    <div class="card">
+      <div class="left">♦</div>
+      <div class="middle">
+        <div>♦</div>
+        <div>♦</div>
+      </div>
+      <div class="right">♦</div>
+    </div>
+
+  </main>
+
+
+
+</body>
+
+</html>
